@@ -1,12 +1,9 @@
 age_out_interval: 00:03:00
-dev_pw: juniper123
-dev_user: root
+dev_pw: Clouds123
+dev_user: wistar
 communities:
   - bgp_flow_arbor:1000:1666
 routers:
-  - RR:
-      type: rr
-      ip: 10.11.111.120
-  - PE:
+  - vqfx-1:
       type: asbr
-      ip: 10.11.111.121
+      ip: 172.32.1.10
